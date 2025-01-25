@@ -2,6 +2,17 @@
 .button-yellow {
   background-color: #FFF544;
 }
+.before\:content-\[\]::before {
+  content: '';
+}
+.before\:absolute::before {
+  position: absolute;
+}
+.before\:left-0::before {
+  left: 0;
+}
+/* and so on... */
+
 .font{
   font-family: Jost;
 }
