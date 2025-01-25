@@ -3,8 +3,11 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
+      fontFamily: {
+        Jost: ["Jost","sans-serif"],
+      },
       colors: {
-        "Dark-charcoal": "#333",
+        "button-yellow": "#FFF544",
       },
     },
   },
