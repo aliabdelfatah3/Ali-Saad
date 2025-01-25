@@ -14,52 +14,52 @@ function Grid() {
     <>
       <div className="pt-[90px]">
         <h1 className="text-4xl">Tisso vison in the wild</h1>
-        <div className="flex flex-wrap justify-center gap-5 pt-7.5 ">
+        <div className="flex flex-wrap justify-center gap-5 pt-[30px]">
           <div className="w-[433px] h-[444px] relative">
             <img src={image1} alt="image1" className="w-[433px] h-[444px]" />
-            <button className="absolute top-[238px] left-[252px] cursor-pointer">
+            <button className="absolute top-[238px] left-[252px] ">
               <img src={Add} alt="" />
             </button>
           </div>
           <div className="w-[433px] h-[444px] relative">
             <img src={image2} alt="image2" className="w-[433px] h-[444px]" />
-            <button className="absolute top-[220px] left-[350px] cursor-pointer">
+            <button className="absolute top-[220px] left-[350px] ">
               <img src={Add} alt="" />
             </button>
           </div>
           <div className="w-[433px] h-[444px] relative">
             <img src={image3} alt="image3" className="w-[433px] h-[444px]" />
-            <button className="absolute top-[82px] left-[252px] cursor-pointer">
+            <button className="absolute top-[82px] left-[252px] ">
               <img src={Add} alt="" />
             </button>
           </div>
           <div className="w-[433px] h-[444px] relative">
             <img src={image4} alt="image4" className="w-[433px] h-[444px]" />
-            <button className="absolute top-[71px] left-[301.5px] cursor-pointer">
+            <button className="absolute top-[71px] left-[301.5px] ">
               <img src={Add} alt="" />
             </button>
           </div>
           <div className="w-[433px] h-[444px] relative">
             <img src={image5} alt="image5" className="w-[433px] h-[444px]" />
-            <button className="absolute top-[104px] left-[212px] cursor-pointer">
+            <button className="absolute top-[104px] left-[212px] ">
               <img src={Add} alt="" />
             </button>
           </div>
           <div className="w-[433px] h-[444px] relative">
             <img src={image6} alt="image6" className="w-[433px] h-[444px]" />
-            <button className="absolute top-[164px] left-[319.5px] cursor-pointer">
+            <button className="absolute top-[164px] left-[319.5px] ">
               <img src={Add} alt="" />
             </button>
           </div>
           <div className="w-[433px] h-[444px] relative">
             <img src={image7} alt="image7" className="w-[433px] h-[444px]" />
-            <button className="absolute top-[230px] left-[150px] cursor-pointer">
+            <button className="absolute top-[230px] left-[150px] ">
               <img src={Add} alt="" />
             </button>
           </div>
           <div className="w-[433px] h-[444px] relative">
             <img src={image8} alt="image8" className="w-[433px] h-[444px]" />
-            <button className="absolute top-[170px] left-[270px] cursor-pointer">
+            <button className="absolute top-[170px] left-[270px] ">
               <img src={Add} alt="" />
             </button>
           </div>

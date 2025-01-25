@@ -4,7 +4,7 @@ import Logo from "./Pic/Logo.png";
 function Nav() {
   return (
     <>
-      <div className="flex absolute overflow-hidden w-full justify-between px-[50px] py-[10px] z-100 items-center bg-[#F5F5F5]">
+      <div className="flex absolute overflow-hidden w-full justify-between px-[50px] py-[10px] z-50 items-center bg-[#F5F5F5]">
         <img src={Logo} alt="TISSO_VISON LOGO" />
         <p>Find the ideal gift for your loved ones</p>
         <div className="z-10 space-x-6">
@@ -18,7 +18,7 @@ function Nav() {
             className="relative before:content-[''] uppercase text-black button-yellow w-[207px] h-[44px] z-10 
              before:absolute before:left-0 before:top-0 before:h-full before:w-full 
              before:origin-top-left before:scale-x-0 before:bg-black before:transition-transform 
-             before:duration-300 hover:text-white before:z-0 before:hover:scale-x-100 cursor-pointer"
+             before:duration-300 hover:text-white before:z-0 before:hover:scale-x-100"
           >
             <span className="relative z-10">choose gift</span>
           </button>

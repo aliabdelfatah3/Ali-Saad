@@ -10,10 +10,10 @@ function Banner() {
           <img
             src={Frame}
             alt="Banner"
-            className="w-full object-fit -translate-y-17 h-[460px]"
+            className="w-full object-fit -translate-y-[68px] h-[460px]"
           />
         </div>
-        <div className="flex w-[2500px] h-[402px] overflow-hidden gap-30">
+        <div className="flex w-[2500px] h-[402px] overflow-hidden gap-[120px]">
           <div className="flex flex-col pt-5 pl-[68px] items-start gap-[40px]">
             <h1 className="font-bold text-[70px]">The Gift Guide</h1>
             <p className="text-[20px] leading-[28px] w-[483px]">
