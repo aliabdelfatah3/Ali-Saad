@@ -4,12 +4,13 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        Jost: ["Jost","sans-serif"],
+        Jost: ["Jost", "sans-serif"],
+        Lustria: ["Lustria"],
       },
       colors: {
         "button-yellow": "#FFF544",
       },
     },
   },
-  plugins: [],
+  plugins: [require("tailwind-scrollbar-hide"),],
 };
