@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import  { useState } from "react";
 import I1Grid from "./GridsComponents/I1Grid/I1Grid"; // Importing the grid component for product 1
 import I2Grid from "./GridsComponents/I2Grid/I2Grid"; // Importing the grid component for product 2
 import I3Grid from "./GridsComponents/I3Grid/I3Grid"; // Importing the grid component for product 3

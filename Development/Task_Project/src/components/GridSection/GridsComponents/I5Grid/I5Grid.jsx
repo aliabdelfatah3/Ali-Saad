@@ -8,7 +8,7 @@ import SizeDropdown5 from "./Children5/SizeDropdown5";
 import AddToCartButton5 from "./Children5/AddToCartButton5";
 
 function I5Grid({ addToCart }) {
-  const [activeColor, setActiveColor] = useState("White");
+  const [activeColor, setActiveColor] = useState("Grey");
   const [isCardVisible, setIsCardVisible] = useState(false);
   const [selectedSize, setSelectedSize] = useState("");
 

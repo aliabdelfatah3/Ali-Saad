@@ -9,7 +9,7 @@ import AddToCartButton2 from "./Children2/AddToCartButton2"; // Add to cart butt
 
 function I2Grid({ addToCart }) {
   // State for managing the active color selection
-  const [activeColor, setActiveColor] = useState("White");
+  const [activeColor, setActiveColor] = useState("Blue");
 
   // State for showing or hiding the card popup
   const [isCardVisible, setIsCardVisible] = useState(false);

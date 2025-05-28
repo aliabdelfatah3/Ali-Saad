@@ -8,7 +8,7 @@ import SizeDropdown8 from "./Children8/SizeDropdown8"; // Importing the size dro
 import AddToCartButton8 from "./Children8/AddToCartButton8"; // Importing the Add to Cart button component
 
 function I8Grid({ addToCart }) {
-  const [activeColor, setActiveColor] = useState("White"); // State to track selected color
+  const [activeColor, setActiveColor] = useState("Blue"); // State to track selected color
   const [isCardVisible, setIsCardVisible] = useState(false); // State to toggle the visibility of the popup
   const [selectedSize, setSelectedSize] = useState(""); // State to track selected size
 

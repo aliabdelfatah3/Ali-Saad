@@ -9,7 +9,7 @@ import AddToCartButton6 from "./Children6/AddToCartButton6";
 
 function I5Grid({ addToCart }) {
   // State hooks to track active color, card visibility, and selected size
-  const [activeColor, setActiveColor] = useState("White");
+  const [activeColor, setActiveColor] = useState("Blue");
   const [isCardVisible, setIsCardVisible] = useState(false);
   const [selectedSize, setSelectedSize] = useState("");
 

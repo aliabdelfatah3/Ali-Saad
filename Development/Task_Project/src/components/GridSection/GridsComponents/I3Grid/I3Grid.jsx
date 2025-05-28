@@ -9,7 +9,7 @@ import AddToCartButton3 from "./Children3/AddToCartButton3";
 
 function I3Grid({ addToCart }) {
   // State for tracking the selected color and size, and visibility of the card
-  const [activeColor, setActiveColor] = useState("White");
+  const [activeColor, setActiveColor] = useState("Red");
   const [isCardVisible, setIsCardVisible] = useState(false);
   const [selectedSize, setSelectedSize] = useState("");
 

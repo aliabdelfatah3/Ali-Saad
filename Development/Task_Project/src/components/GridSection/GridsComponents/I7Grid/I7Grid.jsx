@@ -9,7 +9,7 @@ import AddToCartButton7 from "./Children7/AddToCartButton7"; // Add to cart butt
 
 function I7Grid({ addToCart }) {
   // State hooks for managing color, size, and visibility of the card popup
-  const [activeColor, setActiveColor] = useState("White");
+  const [activeColor, setActiveColor] = useState("Red");
   const [isCardVisible, setIsCardVisible] = useState(false);
   const [selectedSize, setSelectedSize] = useState("");
 
