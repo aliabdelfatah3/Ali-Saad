@@ -323,6 +323,7 @@
                             {%- else -%}
                               {%- for price_break in volume_pricing_array -%}
                                 {%- if current_qty_for_volume_pricing >= price_break.minimum_quantity -%}
+                                  {%- assign price_break_price = price_break.price | money_with_currency -%}
                                   <span class="price-per-item--current">
                                     {{-
                                       'products.product.volume_pricing.price_at_each'
